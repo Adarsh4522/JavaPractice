@@ -17,6 +17,6 @@ public class prime1toN {
                 System.out.println(i);
             }
         }
-
+        sc.close();
     }
 }
