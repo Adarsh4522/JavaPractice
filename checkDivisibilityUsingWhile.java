@@ -16,5 +16,8 @@ public class checkDivisibilityUsingWhile {
         if(count == 0) System.out.print("There are no even digits in the number.");
         else if(n % count == 0) System.out.print("It is a divisor of the original number.");
         else System.out.print("It is not a divisor of the original number.");
+    
+    sc.close();
     }
+
 }
