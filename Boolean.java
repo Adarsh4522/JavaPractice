@@ -18,6 +18,6 @@ public class Boolean {
 
         }
         System.out.println(isPrime);
-
+        sc.close();
     }
 }
