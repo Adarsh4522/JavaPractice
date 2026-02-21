@@ -31,5 +31,6 @@ public class oops {
         Car car3 = new Car("Toyota", " Supra MK4", 1998);
         car1.display();
         car2.display();
+        car3.display();
     }
 }
