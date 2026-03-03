@@ -5,8 +5,8 @@ class NumberClassifier {
 
     int n;      
     
-    public NumberClassifier() {
-    }
+    // public NumberClassifier() {
+    // }
 
    
     public void classifyNumbers(int[] arr) {
