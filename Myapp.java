@@ -15,17 +15,17 @@ class Myapp {
         //Color clr = new Color(255,0,0); //RGB value
         //fr.getContentPane().setBackground(clr);
 
-        ImageIcon ic = new ImageIcon("=-098.jpg");
+        ImageIcon ic = new ImageIcon("backdrop.jpg");
        JLabel lbl = new JLabel(ic); //to add image to label
        fr.setContentPane(lbl);
 
         // code to play audio
         try { 
-        File ado = new File("cmd_j70_salsa.mp3");
-        AudioInputStream audio = AudioSystem.getAudioInputStream(ado);
+      //  File ado = new File("cmd_j70_salsa.mp3");
+       // AudioInputStream audio = AudioSystem.getAudioInputStream(ado);
 
         Clip clip = AudioSystem.getClip();
-        clip.open(audio);
+       // clip.open(audio);
         clip.start();
 
     }
